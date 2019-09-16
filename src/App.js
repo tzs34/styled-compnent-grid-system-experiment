@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <Row columns={6}>
-        <Column desktop={1} tablet={2} mobile={6}>
+        <Column desktop={1} tablet={2} mobile={6} >
           <div style={{background:'#AA88EE'}}>One</div>
         </Column>
         <Column desktop={2} tablet={2} mobile={6}>
