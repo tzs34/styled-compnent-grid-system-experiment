@@ -11,7 +11,7 @@ export const Column= styled.div`
     }
 
     @media only screen and  ${device.desktop}{
-    --width: ${({mobile, desktop}) => desktop || mobile};
+        --width: ${({mobile, desktop}) => desktop || mobile};
   
 `
 
