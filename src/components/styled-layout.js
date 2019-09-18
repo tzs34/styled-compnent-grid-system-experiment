@@ -19,11 +19,11 @@ export const Column= styled.div`
 `
 
 export const Row = styled.div`
-  	margin: 0;
+  margin: 0;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-    --columns: ${props => props.columns || 4};
+  --columns: ${props => props.columns || 4};
 
   ${Column}{
     --initialbasis: calc(var(--width, 0) / var(--columns) * 100%);
